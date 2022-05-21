@@ -1,0 +1,16 @@
+---
+context: "testing"
+projects:
+  - name: "forjulie"
+    consumers:
+      - principal: "User:App0"
+    topics:
+      - name: "foo"
+      - dataType: "avro"
+        name: "bar"
+      - dataType: "json"
+        name: "zet"
+  - name: "bar"
+    topics:
+      - dataType: "avro"
+        name: "bar"

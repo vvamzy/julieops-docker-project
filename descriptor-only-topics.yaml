@@ -1,0 +1,15 @@
+---
+context: "kst"
+projects:
+  - name: "twitter"
+    topics:
+      - name: "foo"
+      - dataType: "avro"
+        name: "bar"
+      - dataType: "json"
+        name: "zet"
+  - name: "facebook"
+    topics:
+      - dataType: "avro"
+        name: "bar"
+
